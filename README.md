@@ -1,11 +1,12 @@
 # Be a Goldfish: Forgetting Bad Conditioning in Sparse Linear Regression via Variational Autoencoders
 Code to replicate the results of the our ICML 2025 paper (Submission Number: 15780).
 
-# Authors
+## Authors
 Kuheli Pratihar, Debdeep Mukhopadhyay 
+
 Department of Computer Science and Engineering, Indian Institute of Technology Kharagpur, Kharagpur, India
 
-## TL;DR: 
+### TL;DR: 
 We use Variational Autoencoders that smoothen out bad local minima to solve the NP-hard inverse problem of Sparse linear regression and perform better than conventional methods.
 
 # Abstract:
