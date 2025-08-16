@@ -69,10 +69,11 @@ The output plots will replicate the corresponding subfigures in the paper.
 ## Repository Structure
 ```
 .
-├── Code/Test_Gaussian_Identity.py      # Code for Figure 1(a)
-├── Code/Test_Gaussian_RandomWalk.py    # Code for Figure 1(b)
-├── Code/Test_Biomedical_Matrix.py      # Code for Figure 1(c)
-└── README.md                      # Project documentation
+├── Code/
+│   ├── Test_Gaussian_Identity.py      # Generates Figure 1(a)
+│   ├── Test_Gaussian_RandomWalk.py    # Generates Figure 1(b)
+│   └── Test_Biomedical_Matrix.py      # Generates Figure 1(c)
+└── README.md                          # Project documentation
 ```
 
 ---
