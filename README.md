@@ -32,20 +32,16 @@ Our empirical results validate these findings across various design matrices, sh
 
 Clone the repository:
 ```bash
-git clone https://github.com/<your-repo>/be-a-goldfish.git
-cd be-a-goldfish
+git clone https://github.com/SEAL-IIT-KGP/Be-a-Goldfish-Solving-SLR-using-VAE.git
+cd Be-a-Goldfish-Solving-SLR-using-VAE
 ```
 
-Install the required Python libraries:
+### Using Conda (Recommended)
 ```bash
-pip install -r requirements.txt
-```
-
-Or manually install:
-```bash
+conda create -n goldfish-env python=3.10 -y
+conda activate goldfish-env
 pip install numpy scikit-learn matplotlib pandas seaborn
 ```
-
 ---
 
 ## Reproducing Results
