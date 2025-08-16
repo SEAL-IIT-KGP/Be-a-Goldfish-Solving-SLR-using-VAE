@@ -33,7 +33,6 @@ Our empirical results validate these findings across various design matrices, sh
 Clone the repository:
 ```bash
 git clone https://github.com/SEAL-IIT-KGP/Be-a-Goldfish-Solving-SLR-using-VAE.git
-cd Be-a-Goldfish-Solving-SLR-using-VAE
 ```
 
 ### Using Conda (Recommended)
@@ -50,17 +49,17 @@ The scripts below generate the plots for **Figure 1** in the paper:
 
 1. **Gaussian Identity Matrix**  
    ```bash
-   python Test_Gaussian_Identity.py
+   python Code/Test_Gaussian_Identity.py
    ```
 
 2. **Gaussian Random Walk Matrix**  
    ```bash
-   python Test_Gaussian_RandomWalk.py
+   python Code/Test_Gaussian_RandomWalk.py
    ```
 
 3. **Riboflavin Dataset Matrix (Biomedical)**  
    ```bash
-   python Test_Biomedical_Matrix.py
+   python Code/Test_Biomedical_Matrix.py
    ```
 
 The output plots will replicate the corresponding subfigures in the paper.  
@@ -70,10 +69,9 @@ The output plots will replicate the corresponding subfigures in the paper.
 ## Repository Structure
 ```
 .
-├── Test_Gaussian_Identity.py      # Code for Figure 1(a)
-├── Test_Gaussian_RandomWalk.py    # Code for Figure 1(b)
-├── Test_Biomedical_Matrix.py      # Code for Figure 1(c)
-├── requirements.txt               # Dependencies
+├── Code/Test_Gaussian_Identity.py      # Code for Figure 1(a)
+├── Code/Test_Gaussian_RandomWalk.py    # Code for Figure 1(b)
+├── Code/Test_Biomedical_Matrix.py      # Code for Figure 1(c)
 └── README.md                      # Project documentation
 ```
 
